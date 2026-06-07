@@ -28,7 +28,8 @@ PS C:\Users\HP> python --version
 Python 3.11.0
 PS C:\Users\HP> pip --version
 pip 22.3 from C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\pip (python 3.11)
-<img width="749" height="68" alt="image" src="https://github.com/user-attachments/assets/f4867b14-6531-4478-9cc1-67ae32527c07" />
+```
+<img width="749" height="68" alt="Capture d&#39;écran 2026-06-07 015704" src="https://github.com/user-attachments/assets/8ad17629-542a-42ae-a57d-06142c1d5719" />
 
 
 
@@ -58,7 +59,7 @@ Running on Windows 10.0.26200
 PS C:\Users\HP> adb devices
 List of devices attached
 emulator-5554   device
-
+```
 <img width="865" height="132" alt="image" src="https://github.com/user-attachments/assets/ddb73ea1-8428-46ec-b441-1c3204635630" />
 
 ```
@@ -77,6 +78,7 @@ x86_64
 ### 2.2 Télécharger frida-server
 
 > ⚠️ La version de `frida-server` **doit correspondre exactement** à `frida --version` côté PC.
+> ```
 <img width="195" height="29" alt="image" src="https://github.com/user-attachments/assets/d5c4199c-5b66-4d5d-b98c-adcf75e457c8" />
 
 
@@ -88,7 +90,7 @@ adb shell chmod 755 /data/local/tmp/frida-server
 
 # Lancement (premier terminal, laisser tourner)
 adb shell "/data/local/tmp/frida-server -l 0.0.0.0"
-
+```
 <img width="490" height="96" alt="image" src="https://github.com/user-attachments/assets/659950f0-815c-4691-a439-510a47ff83b5" />
 
 ```
@@ -113,7 +115,7 @@ PS C:\Users\HP> frida-ps -Uai
  2223  Google                com.google.android.googlequicksearchbox
  2223  Google                com.google.android.googlequicksearchbox
  2693  Messages              com.google.android.apps.messaging
-
+```
 <img width="530" height="212" alt="image" src="https://github.com/user-attachments/assets/9889cdd7-2dd8-45cb-9fd3-d9d3527723c5" />
 
 ```
@@ -139,7 +141,7 @@ Java.perform(function () {
 
 ```bash
 PS C:\Users\HP> frida -U -f com.example.projetws -l hello.js
-
+```
 <img width="605" height="203" alt="image" src="https://github.com/user-attachments/assets/b911ea0a-8c89-4955-a0b2-dc5763ec2d84" />
 
 ```
@@ -163,7 +165,7 @@ PS C:\Users\HP> frida -U -f com.example.projetws -l hello.js
 
 ```bash
 PS C:\Users\HP> frida -U -f com.example.projetws -l bypass_root1.js
-
+```
 <img width="629" height="225" alt="image" src="https://github.com/user-attachments/assets/bb3ed995-59d8-4822-9eb1-811f460fe1c0" />
 
 ```
@@ -176,7 +178,7 @@ Les apps peuvent chercher `su` via `open`/`openat`/`access`/`stat` en natif. Ce 
 
 ```bash
 PS C:\Users\HP> frida -U -f com.example.projetws -l bypass_native.js
-
+```
 <img width="589" height="284" alt="image" src="https://github.com/user-attachments/assets/8e98006d-868a-4cd4-bccf-d57237d68579" />
 
 ```
@@ -201,6 +203,7 @@ pip install --upgrade objection
 # Vérification
 PS C:\Users\HP> objection version
 objection: 1.12.5
+```
 <img width="281" height="34" alt="image" src="https://github.com/user-attachments/assets/e97d2346-33c3-484b-be55-84d758b9c393" />
 
 ```
