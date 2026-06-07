@@ -29,7 +29,7 @@ Python 3.11.0
 PS C:\Users\HP> pip --version
 pip 22.3 from C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\pip (python 3.11)
 
-<img width="748" height="64" alt="image" src="https://github.com/user-attachments/assets/337e0024-fac1-4984-ac97-f71b859291b4"/>
+<img width="749" height="68" alt="image" src="https://github.com/user-attachments/assets/21225ee2-345c-486c-817f-985166f276a4" />
 
 
 
